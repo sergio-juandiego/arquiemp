@@ -1,68 +1,85 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><help_text>Space for diagram notes	</help_text><element><id>UMLClass</id><coordinates><x>297</x><y>153</y><w>108</w><h>54</h></coordinates><panel_attributes>Club
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><help_text>Space for diagram notes	</help_text><element><id>UMLClass</id><coordinates><x>45</x><y>135</y><w>108</w><h>54</h></coordinates><panel_attributes>Club
 -
 -nombre: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>162</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>144</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
 m1=*
-</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>198</y><w>45</w><h>72</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>72</x><y>180</y><w>45</w><h>72</h></coordinates><panel_attributes>lt=&lt;-
 m1=1..*
-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>468</x><y>153</y><w>117</w><h>54</h></coordinates><panel_attributes>Membresía
+</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>216</x><y>135</y><w>117</w><h>54</h></coordinates><panel_attributes>Membresía
 -
 - monto: Int
 - periodicidad: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>153</y><w>108</w><h>54</h></coordinates><panel_attributes>Afiliado
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>135</y><w>108</w><h>54</h></coordinates><panel_attributes>Afiliado
 -
 - nombre: Int
 - documento: Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>162</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>144</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
 m1=1
-</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>108</y><w>378</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>90</y><w>378</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
 m1=1..*
-</panel_attributes><additional_attributes>380;50;380;20;10;20;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>252</y><w>108</w><h>54</h></coordinates><panel_attributes>Empleado
+</panel_attributes><additional_attributes>380;50;380;20;10;20;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>234</y><w>108</w><h>54</h></coordinates><panel_attributes>Empleado
 -
 -nombre: Int
 -identificacion: Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>252</y><w>108</w><h>54</h></coordinates><panel_attributes>Sede
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>234</y><w>108</w><h>54</h></coordinates><panel_attributes>Sede
 -
 -nombre: String
 -dirección: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>351</x><y>198</y><w>387</w><h>72</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>99</x><y>180</y><w>387</w><h>72</h></coordinates><panel_attributes>lt=&lt;-
 m1=1..*
-</panel_attributes><additional_attributes>390;60;390;30;10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>252</y><w>108</w><h>54</h></coordinates><panel_attributes>Instalación
+</panel_attributes><additional_attributes>390;60;390;30;10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>234</y><w>108</w><h>54</h></coordinates><panel_attributes>Instalación
 -
 -nombre: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>450</y><w>108</w><h>54</h></coordinates><panel_attributes>Piscina
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>432</y><w>108</w><h>54</h></coordinates><panel_attributes>Piscina
 -
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>450</y><w>108</w><h>54</h></coordinates><panel_attributes>Gimnasio
--
-
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>450</y><w>108</w><h>54</h></coordinates><panel_attributes>Restaurante
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>432</y><w>108</w><h>54</h></coordinates><panel_attributes>Gimnasio
 -
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>549</y><w>108</w><h>54</h></coordinates><panel_attributes>SalonDeEventos
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>432</y><w>108</w><h>54</h></coordinates><panel_attributes>Restaurante
+-
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>531</y><w>108</w><h>54</h></coordinates><panel_attributes>SalonDeEventos
 -
 -capacidad: Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>549</y><w>108</w><h>54</h></coordinates><panel_attributes>Spa
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>225</x><y>531</y><w>108</w><h>54</h></coordinates><panel_attributes>Spa
 -
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>261</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=-&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>243</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=-&gt;
 m2=*
-</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>297</y><w>198</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150;200;150;200;170</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>297</y><w>27</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>297</y><w>207</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;210;150;10;150;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>297</y><w>207</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;210;150;120;150;120;260;10;260;10;280</additional_attributes></element><element><id>Relation</id><coordinates><x>441</x><y>297</y><w>108</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;100;150;10;150;10;260;100;260;100;280</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>297</y><w>198</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150;100;150;100;260;200;260;200;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>549</y><w>108</w><h>54</h></coordinates><panel_attributes>Cancha
+</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>279</y><w>198</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150;200;150;200;170</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>279</y><w>27</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>279</y><w>207</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;210;150;10;150;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>279</y><w>207</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;210;150;120;150;120;260;10;260;10;280</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>279</y><w>108</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;100;150;10;150;10;260;100;260;100;280</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>279</y><w>198</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150;100;150;100;260;200;260;200;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>531</y><w>108</w><h>54</h></coordinates><panel_attributes>Cancha
 -
 -deporte: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>261</y><w>99</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>243</y><w>99</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
 m1=1
-puesto</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>351</y><w>108</w><h>54</h></coordinates><panel_attributes>Cliente
+puesto</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>333</y><w>108</w><h>54</h></coordinates><panel_attributes>Cliente
 -
 -nombre: String
 -documento: Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>171</y><w>63</w><h>243</h></coordinates><panel_attributes>lt=-&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>153</y><w>63</w><h>243</h></coordinates><panel_attributes>lt=-&gt;
 m2=*
-</panel_attributes><additional_attributes>50;10;10;10;10;240;50;240</additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>297</y><w>117</w><h>108</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>50;10;10;10;10;240;50;240</additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>279</y><w>126</w><h>108</h></coordinates><panel_attributes>lt=&lt;-
 m1=*
-m2=arriendo</panel_attributes><additional_attributes>110;10;110;90;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>351</y><w>108</w><h>54</h></coordinates><panel_attributes>Invitado
+m2=arriendo</panel_attributes><additional_attributes>110;10;110;90;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>333</y><w>108</w><h>54</h></coordinates><panel_attributes>Invitado
 -
 -nombre: String
 -documento: Int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>747</x><y>171</y><w>63</w><h>243</h></coordinates><panel_attributes>lt=-&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>153</y><w>63</w><h>243</h></coordinates><panel_attributes>lt=-&gt;
 m2=*
-</panel_attributes><additional_attributes>10;10;50;10;50;240;10;240</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes>10;10;50;10;50;240;10;240</additional_attributes></element><element><id>UMLClass</id><coordinates><x>666</x><y>558</y><w>108</w><h>54</h></coordinates><panel_attributes>Club
+-
+-nombre: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>837</x><y>558</y><w>117</w><h>54</h></coordinates><panel_attributes>Membresía
+-
+- monto: Int
+- periodicidad: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1017</x><y>558</y><w>108</w><h>54</h></coordinates><panel_attributes>Afiliado
+-
+- nombre: Int
+- documento: Int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>945</x><y>567</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>765</x><y>567</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>711</x><y>513</y><w>378</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..*
+</panel_attributes><additional_attributes>380;50;380;20;10;20;10;50</additional_attributes></element></diagram>
