@@ -32,19 +32,18 @@ m1=1..*
 -nombre: String
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>450</y><w>108</w><h>54</h></coordinates><panel_attributes>Piscina
 -
--nombre: String
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>450</y><w>108</w><h>54</h></coordinates><panel_attributes>Gimnasio
 -
--nombre: String
+
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>450</y><w>108</w><h>54</h></coordinates><panel_attributes>Restaurante
 -
--nombre: String
+
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>549</y><w>108</w><h>54</h></coordinates><panel_attributes>SalonDeEventos
 -
 -capacidad: Int
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>549</y><w>108</w><h>54</h></coordinates><panel_attributes>Spa
 -
--nombre: String
+
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>261</y><w>90</w><h>45</h></coordinates><panel_attributes>lt=-&gt;
 m2=*
 </panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>297</y><w>198</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150;200;150;200;170</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>297</y><w>27</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>297</y><w>207</w><h>171</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;210;150;10;150;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>297</y><w>207</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;210;150;120;150;120;260;10;260;10;280</additional_attributes></element><element><id>Relation</id><coordinates><x>441</x><y>297</y><w>108</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;100;150;10;150;10;260;100;260;100;280</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>297</y><w>198</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;150;100;150;100;260;200;260;200;280</additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>549</y><w>108</w><h>54</h></coordinates><panel_attributes>Cancha
@@ -58,7 +57,7 @@ puesto</panel_attributes><additional_attributes>90;20;10;20</additional_attribut
 -documento: Int
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>252</x><y>171</y><w>63</w><h>243</h></coordinates><panel_attributes>lt=-&gt;
 m2=*
-</panel_attributes><additional_attributes>50;10;10;10;10;240;50;240</additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>297</y><w>126</w><h>108</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>50;10;10;10;10;240;50;240</additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>297</y><w>117</w><h>108</h></coordinates><panel_attributes>lt=&lt;-
 m1=*
 m2=arriendo</panel_attributes><additional_attributes>110;10;110;90;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>351</y><w>108</w><h>54</h></coordinates><panel_attributes>Invitado
 -
