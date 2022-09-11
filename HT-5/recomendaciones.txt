@@ -1,10 +1,5 @@
 #TODO:
 
-- Modificaciones del modelo anterior que son importantes para el modelo financiero:
-	Agregar el concepto de bodega 
-	Especificar que la óptica no es la que hace las transformaciones, es un tercero y por ende no tendríamos ese canal de transformación
-	
-
 - Recomendaciones de Jorge:
 	No tener en cuenta la inflación
 	No importa si los valores no son reales, los podemos inventar pero tienen que tener sentido
